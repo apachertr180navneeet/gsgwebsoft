@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/vendor/vendor.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/plugins/plugins.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/brand-theme.css') }}">
     @stack('styles')
 </head>
 <body>

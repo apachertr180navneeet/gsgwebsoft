@@ -5,10 +5,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20 text-white">Company</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="#about" class="hover-style-link text-white">About us</a></li>
-                        <li><a href="#services" class="hover-style-link text-white">Our services</a></li>
-                        <li><a href="#contact" class="hover-style-link text-white">Contact</a></li>
-                        <li><a href="#contact" class="hover-style-link text-white">Book a consultation</a></li>
+                        <li><a href="{{ route('front.about') }}" class="hover-style-link text-white">About us</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">Our services</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Contact</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Book a consultation</a></li>
                     </ul>
 
                     <ul class="list ht-social-networks solid-rounded-icon mt-25">
@@ -38,11 +38,11 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20 text-white">IT Services</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="#services" class="hover-style-link text-white">Managed IT</a></li>
-                        <li><a href="#services" class="hover-style-link text-white">IT Support</a></li>
-                        <li><a href="#services" class="hover-style-link text-white">IT Consultancy</a></li>
-                        <li><a href="#services" class="hover-style-link text-white">Cloud Computing</a></li>
-                        <li><a href="#services" class="hover-style-link text-white">Cyber Security</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">Managed IT</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">IT Support</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">IT Consultancy</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">Cloud Computing</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">Cyber Security</a></li>
                     </ul>
                 </div>
 
@@ -50,19 +50,19 @@
                     <h6 class="footer-widget__title mb-20 text-white">Quick links</h6>
                     <ul class="footer-widget__list">
                         <li><a href="{{ route('front.home') }}" class="hover-style-link text-white">Home</a></li>
-                        <li><a href="#about" class="hover-style-link text-white">Why choose us</a></li>
-                        <li><a href="#services" class="hover-style-link text-white">Solutions</a></li>
-                        <li><a href="#contact" class="hover-style-link text-white">Where to find us</a></li>
+                        <li><a href="{{ route('front.about') }}" class="hover-style-link text-white">Why choose us</a></li>
+                        <li><a href="{{ route('front.services') }}" class="hover-style-link text-white">Solutions</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Where to find us</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20 text-white">Support</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="#contact" class="hover-style-link text-white">Forum support</a></li>
-                        <li><a href="#contact" class="hover-style-link text-white">Help & FAQ</a></li>
-                        <li><a href="#contact" class="hover-style-link text-white">Contact us</a></li>
-                        <li><a href="#contact" class="hover-style-link text-white">Pricing and plans</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Forum support</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Help & FAQ</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Contact us</a></li>
+                        <li><a href="{{ route('front.contact') }}" class="hover-style-link text-white">Pricing and plans</a></li>
                     </ul>
                 </div>
 
@@ -70,12 +70,12 @@
                     <div class="footer-widget__title section-space--mb_50"></div>
                     <ul class="footer-widget__list">
                         <li>
-                            <a href="#contact" class="image_btn" aria-label="Google play button">
+                            <a href="{{ route('front.contact') }}" class="image_btn" aria-label="Google play button">
                                 <img class="img-fluid" src="{{ asset('frontend/images/icons/aeroland-button-google-play.webp') }}" alt="">
                             </a>
                         </li>
                         <li>
-                            <a href="#contact" class="image_btn" aria-label="App store button">
+                            <a href="{{ route('front.contact') }}" class="image_btn" aria-label="App store button">
                                 <img class="img-fluid" src="{{ asset('frontend/images/icons/aeroland-button-app-store.webp') }}" alt="">
                             </a>
                         </li>

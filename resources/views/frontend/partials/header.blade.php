@@ -23,9 +23,9 @@
                                             <nav class="navigation-menu primary--menu">
                                                 <ul>
                                                     <li><a href="{{ route('front.home') }}"><span>Home</span></a></li>
-                                                    <li><a href="#about"><span>About</span></a></li>
-                                                    <li><a href="#services"><span>Services</span></a></li>
-                                                    <li><a href="#contact"><span>Contact</span></a></li>
+                                                    <li><a href="{{ route('front.about') }}"><span>About Us</span></a></li>
+                                                    <li><a href="{{ route('front.services') }}"><span>Services</span></a></li>
+                                                    <li><a href="{{ route('front.contact') }}"><span>Contact Us</span></a></li>
                                                 </ul>
                                             </nav>
                                         </div>
@@ -37,7 +37,7 @@
                         <div class="header-right-box">
                             <div class="header-right-inner" id="hidden-icon-wrapper">
                                 <div class="header-button ms-4">
-                                    <a href="#contact" class="ht-btn ht-btn-md">Get Consultation</a>
+                                    <a href="{{ route('front.contact') }}" class="ht-btn ht-btn-md">Get Consultation</a>
                                 </div>
                                 <div class="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
                                     <i></i>
