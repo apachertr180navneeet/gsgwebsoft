@@ -5,9 +5,9 @@
                 <div class="col-lg-12">
                     <div class="header default-menu-style position-relative">
                         <div class="header__logo">
-                            <a href="{{ route('home') }}">
+                            <a href="{{ route('front.home') }}">
                                 <img
-                                    src="{{ asset('mitech-assets/images/logo/logo-dark.webp') }}"
+                                    src="{{ asset('frontend/images/logo/logo-dark.webp') }}"
                                     aria-label="Mitech Logo"
                                     width="160"
                                     height="48"
@@ -24,7 +24,7 @@
                                         <div class="header__navigation d-none d-xl-block">
                                             <nav class="navigation-menu primary--menu">
                                                 <ul>
-                                                    <li><a href="{{ route('home') }}"><span>Home</span></a></li>
+                                                    <li><a href="{{ route('front.home') }}"><span>Home</span></a></li>
                                                     <li><a href="#about"><span>About</span></a></li>
                                                     <li><a href="#services"><span>Services</span></a></li>
                                                     <li><a href="#contact"><span>Contact</span></a></li>

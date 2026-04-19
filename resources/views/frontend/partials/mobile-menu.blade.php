@@ -5,8 +5,8 @@
                 <div class="row align-items-center">
                     <div class="col-md-6 col-8">
                         <div class="logo">
-                            <a href="{{ route('home') }}">
-                                <img src="{{ asset('mitech-assets/images/logo/logo-dark.webp') }}" class="img-fluid" alt="Mitech logo">
+                            <a href="{{ route('front.home') }}">
+                                <img src="{{ asset('frontend/images/logo/logo-dark.webp') }}" class="img-fluid" alt="Mitech logo">
                             </a>
                         </div>
                     </div>
@@ -22,7 +22,7 @@
         <div class="mobile-menu-overlay__body">
             <nav class="offcanvas-navigation">
                 <ul>
-                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('front.home') }}">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>

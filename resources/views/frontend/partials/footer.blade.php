@@ -49,7 +49,7 @@
                 <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                     <h6 class="footer-widget__title mb-20 text-white">Quick links</h6>
                     <ul class="footer-widget__list">
-                        <li><a href="{{ route('home') }}" class="hover-style-link text-white">Home</a></li>
+                        <li><a href="{{ route('front.home') }}" class="hover-style-link text-white">Home</a></li>
                         <li><a href="#about" class="hover-style-link text-white">Why choose us</a></li>
                         <li><a href="#services" class="hover-style-link text-white">Solutions</a></li>
                         <li><a href="#contact" class="hover-style-link text-white">Where to find us</a></li>
@@ -71,12 +71,12 @@
                     <ul class="footer-widget__list">
                         <li>
                             <a href="#contact" class="image_btn" aria-label="Google play button">
-                                <img class="img-fluid" src="{{ asset('mitech-assets/images/icons/aeroland-button-google-play.webp') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('frontend/images/icons/aeroland-button-google-play.webp') }}" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="#contact" class="image_btn" aria-label="App store button">
-                                <img class="img-fluid" src="{{ asset('mitech-assets/images/icons/aeroland-button-app-store.webp') }}" alt="">
+                                <img class="img-fluid" src="{{ asset('frontend/images/icons/aeroland-button-app-store.webp') }}" alt="">
                             </a>
                         </li>
                     </ul>
@@ -90,7 +90,7 @@
             <div class="row align-items-center">
                 <div class="col-md-12 text-center">
                     <div class="footer-widget__logo mb-30">
-                        <img src="{{ asset('mitech-assets/images/logo/primary-white-logo-160x47.webp') }}" class="img-fluid" alt="Mitech footer logo">
+                        <img src="{{ asset('frontend/images/logo/primary-white-logo-160x47.webp') }}" class="img-fluid" alt="Mitech footer logo">
                     </div>
                     <span class="copyright-text text-white">&copy; {{ date('Y') }} Mitech. All rights reserved.</span>
                 </div>

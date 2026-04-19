@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('frontend.layouts.app')
 
-@section('title', 'Mitech | Home')
+@section('title', 'Frontend | Home')
 
 @section('content')
     <div class="modern-it-company-top-area" id="home">
@@ -11,7 +11,7 @@
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="modern-it-company-hero-image">
-                                <img src="{{ asset('mitech-assets/images/hero/home-reputable-success.webp') }}" class="img-fluid" alt="">
+                                <img src="{{ asset('frontend/images/hero/home-reputable-success.webp') }}" class="img-fluid" alt="">
                             </div>
                             <div class="col-lg-10 col-md-10">
                                 <div class="modern-it-company-hero-text  wow move-up section-space--pt_150">
@@ -23,7 +23,7 @@
 
                                     <div class="book-box">
                                         <div class="image">
-                                            <img src="{{ asset('mitech-assets/images/icons/green-curve-arrow.webp') }}" class="img-fluid"
+                                            <img src="{{ asset('frontend/images/icons/green-curve-arrow.webp') }}" class="img-fluid"
                                                 alt="">
                                         </div>
                                         <h5 class="book-text font-weight--bold mb-15">Booking is open today with
@@ -101,11 +101,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-01.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-01.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-01-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-01-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -113,11 +113,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-02.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-02.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-02-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-02-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -125,11 +125,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-03.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-03.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-03-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-03-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -137,11 +137,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-04.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-04.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-04-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-04-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -149,11 +149,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-05.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-05.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-05-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-05-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -161,11 +161,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-06.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-06.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-06-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-06-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -173,11 +173,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-07.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-07.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-07-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-07-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -185,11 +185,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-08.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-08.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-08-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-08-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -197,11 +197,11 @@
                                             <div class="swiper-slide brand-logo brand-logo--slider">
                                                 <a href="#">
                                                     <div class="brand-logo__image">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-09.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-09.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                     <div class="brand-logo__image-hover">
-                                                        <img src="{{ asset('mitech-assets/images/brand/mitech-client-logo-09-hover.webp') }}"
+                                                        <img src="{{ asset('frontend/images/brand/mitech-client-logo-09-hover.webp') }}"
                                                             class="img-fluid" alt="">
                                                     </div>
                                                 </a>
@@ -222,7 +222,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="image text-center">
-                                    <img src="{{ asset('mitech-assets/images/testimonial/home-reputable-success-about-image.webp') }}"
+                                    <img src="{{ asset('frontend/images/testimonial/home-reputable-success-about-image.webp') }}"
                                         class="img-fluid" alt="">
                                 </div>
                             </div>
@@ -311,7 +311,7 @@
                                         <div class="ht-box-images style-09">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img src="{{ asset('mitech-assets/images/icons/mitech-processing-service-image-01-100x104.webp') }}"
+                                                    <img src="{{ asset('frontend/images/icons/mitech-processing-service-image-01-100x104.webp') }}"
                                                         class="img-fluid" alt="">
                                                 </div>
                                                 <div class="content">
@@ -334,7 +334,7 @@
                                         <div class="ht-box-images style-09">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img src="{{ asset('mitech-assets/images/icons/mitech-processing-service-image-02-100x104.webp') }}"
+                                                    <img src="{{ asset('frontend/images/icons/mitech-processing-service-image-02-100x104.webp') }}"
                                                         class="img-fluid" alt="">
                                                 </div>
                                                 <div class="content">
@@ -357,7 +357,7 @@
                                         <div class="ht-box-images style-09">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img src="{{ asset('mitech-assets/images/icons/mitech-processing-service-image-03-100x104.webp') }}"
+                                                    <img src="{{ asset('frontend/images/icons/mitech-processing-service-image-03-100x104.webp') }}"
                                                         class="img-fluid" alt="">
                                                 </div>
                                                 <div class="content">
@@ -380,7 +380,7 @@
                                         <div class="ht-box-images style-09">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img src="{{ asset('mitech-assets/images/icons/mitech-processing-service-image-04-100x104.webp') }}"
+                                                    <img src="{{ asset('frontend/images/icons/mitech-processing-service-image-04-100x104.webp') }}"
                                                         class="img-fluid" alt="">
                                                 </div>
                                                 <div class="content">
@@ -403,7 +403,7 @@
                                         <div class="ht-box-images style-09">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img src="{{ asset('mitech-assets/images/icons/mitech-processing-service-image-05-100x104.webp') }}"
+                                                    <img src="{{ asset('frontend/images/icons/mitech-processing-service-image-05-100x104.webp') }}"
                                                         class="img-fluid" alt="">
                                                 </div>
                                                 <div class="content">
@@ -426,7 +426,7 @@
                                         <div class="ht-box-images style-09">
                                             <div class="image-box-wrap">
                                                 <div class="box-image">
-                                                    <img src="{{ asset('mitech-assets/images/icons/mitech-processing-service-image-06-100x104.webp') }}"
+                                                    <img src="{{ asset('frontend/images/icons/mitech-processing-service-image-06-100x104.webp') }}"
                                                         class="img-fluid" alt="">
                                                 </div>
                                                 <div class="content">
@@ -495,10 +495,10 @@
                                             <div class="projects-image-box">
                                                 <div class="projects-image">
                                                     <img class="img-fluid"
-                                                        src="{{ asset('mitech-assets/images/projects/home-reputable-success-client-image-05-480x360.webp') }}"
+                                                        src="{{ asset('frontend/images/projects/home-reputable-success-client-image-05-480x360.webp') }}"
                                                         alt="">
                                                     <div class="project-logo">
-                                                        <img src="{{ asset('mitech-assets/images/icons/home-reputable-success-client-logo-04.webp') }}"
+                                                        <img src="{{ asset('frontend/images/icons/home-reputable-success-client-logo-04.webp') }}"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -518,10 +518,10 @@
                                             <div class="projects-image-box">
                                                 <div class="projects-image">
                                                     <img class="img-fluid"
-                                                        src="{{ asset('mitech-assets/images/projects/home-reputable-success-client-image-06-480x360.webp') }}"
+                                                        src="{{ asset('frontend/images/projects/home-reputable-success-client-image-06-480x360.webp') }}"
                                                         alt="">
                                                     <div class="project-logo">
-                                                        <img src="{{ asset('mitech-assets/images/icons/home-reputable-success-client-logo-06.webp') }}"
+                                                        <img src="{{ asset('frontend/images/icons/home-reputable-success-client-logo-06.webp') }}"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -541,10 +541,10 @@
                                             <div class="projects-image-box">
                                                 <div class="projects-image">
                                                     <img class="img-fluid"
-                                                        src="{{ asset('mitech-assets/images/projects/home-reputable-success-client-image-01-480x360.webp') }}"
+                                                        src="{{ asset('frontend/images/projects/home-reputable-success-client-image-01-480x360.webp') }}"
                                                         alt="">
                                                     <div class="project-logo">
-                                                        <img src="{{ asset('mitech-assets/images/icons/home-reputable-success-client-logo-01.webp') }}"
+                                                        <img src="{{ asset('frontend/images/icons/home-reputable-success-client-logo-01.webp') }}"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -564,10 +564,10 @@
                                             <div class="projects-image-box">
                                                 <div class="projects-image">
                                                     <img class="img-fluid"
-                                                        src="{{ asset('mitech-assets/images/projects/home-reputable-success-client-image-02-480x360.webp') }}"
+                                                        src="{{ asset('frontend/images/projects/home-reputable-success-client-image-02-480x360.webp') }}"
                                                         alt="">
                                                     <div class="project-logo">
-                                                        <img src="{{ asset('mitech-assets/images/icons/home-reputable-success-client-logo-02.webp') }}"
+                                                        <img src="{{ asset('frontend/images/icons/home-reputable-success-client-logo-02.webp') }}"
                                                             alt="">
                                                     </div>
                                                 </div>
@@ -587,10 +587,10 @@
                                             <div class="projects-image-box">
                                                 <div class="projects-image">
                                                     <img class="img-fluid"
-                                                        src="{{ asset('mitech-assets/images/projects/home-reputable-success-client-image-03-480x360.webp') }}"
+                                                        src="{{ asset('frontend/images/projects/home-reputable-success-client-image-03-480x360.webp') }}"
                                                         alt="">
                                                     <div class="project-logo">
-                                                        <img src="{{ asset('mitech-assets/images/icons/home-reputable-success-client-logo-03.webp') }}"
+                                                        <img src="{{ asset('frontend/images/icons/home-reputable-success-client-logo-03.webp') }}"
                                                             alt="">
                                                     </div>
                                                 </div>
