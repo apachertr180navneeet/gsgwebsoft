@@ -90,7 +90,7 @@
             <div class="row align-items-center">
                 <div class="col-md-12 text-center">
                     <div class="footer-widget__logo mb-30">
-                        <img src="{{ asset('frontend/images/logo/primary-white-logo-160x47.webp') }}" class="img-fluid" alt="Mitech footer logo">
+                        <img src="{{ asset('frontend/images/logo/gsglogo167.png') }}" class="img-fluid" alt="Mitech footer logo">
                     </div>
                     <span class="copyright-text text-white">&copy; {{ date('Y') }} Mitech. All rights reserved.</span>
                 </div>

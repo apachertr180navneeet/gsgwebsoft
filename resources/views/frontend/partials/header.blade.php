@@ -7,10 +7,8 @@
                         <div class="header__logo">
                             <a href="{{ route('front.home') }}">
                                 <img
-                                    src="{{ asset('frontend/images/logo/logo-dark.webp') }}"
+                                    src="{{ asset('frontend/images/logo/gsglogo320.png') }}"
                                     aria-label="Mitech Logo"
-                                    width="160"
-                                    height="48"
                                     class="img-fluid"
                                     alt="Mitech logo"
                                 >
