@@ -6,7 +6,7 @@
                     <div class="col-md-6 col-8">
                         <div class="logo">
                             <a href="{{ route('front.home') }}">
-                                <img src="{{ asset('frontend/images/logo/logo-dark.webp') }}" class="img-fluid" alt="Mitech logo">
+                                <img src="{{ asset('frontend/images/logo/gsglogo320.png') }}" class="img-fluid" alt="Mitech logo">
                             </a>
                         </div>
                     </div>
